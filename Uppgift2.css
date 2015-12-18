@@ -4,26 +4,27 @@
 }
 
 body{
-    background-color:antiquewhite;
+    background-color: beige;
     font-family: zorus-sarif; 
     margin: 0;
 }
 img{
     position: fixed;
     width: 25vw;
-    right: 100px;
-    top: 0;
+    right: 5%;
+    top: 2%;
     z-index: 1;
 }
-header h1{
+h1{
+    margin: 0;
     position: fixed;
     font-size: 2.8vw;
-    right: 168px;
-    top: 140px;
+    right: 9%;
+    top: 20%;
 }
 
 header{
-    background: url('zen-background2.jpg') no-repeat right /cover;
+    background: linear-gradient(rgba(255,255,255,0) 85%, rgba(218,210,186, 1) 100%), url('zen-background2.jpg') no-repeat right /cover;
     height: 600px;
     margin: 0;
 }
@@ -34,7 +35,13 @@ header h2{
     text-align: right;
     padding-top: 450px;
     padding-right: 125px;
-    
-    
-    
+    }
+h3{
+    padding-left: 10%;
+    font-size: 30px;
+}
+p{
+    padding-left: 10%;
+    font-size: 20px;
+
 }
