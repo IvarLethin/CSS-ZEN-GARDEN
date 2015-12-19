@@ -47,6 +47,17 @@ h1{
 .summary p:last-child{
     text-align: center;
 }
+.design-selection{
+    display: inline-block;
+    position: absolute;
+    top: 550px;
+    width: 25vw;
+    
+}
+.design-achives{
+    display: block;
+    
+}
 
 
 h2{
