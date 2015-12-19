@@ -48,7 +48,7 @@ h1{
     text-align: center;
 }
 .design-selection{
-    display: inline-block;
+    display: flex;
     position: absolute;
     top: 550px;
     width: 25vw;
