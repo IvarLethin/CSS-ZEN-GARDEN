@@ -20,6 +20,7 @@ body{
 header{
     background: linear-gradient(rgba(255,255,255,0) 85%, rgba(218,210,186, 1) 100%), url('zen-background2.jpg') no-repeat right /cover;
     margin: 0;
+    margin-bottom: 10px;
     z-index: -1;
 }
 
@@ -46,16 +47,22 @@ h1{
 }
 .summary p:last-child{
     text-align: center;
+    margin-bottom: 275px;
 }
 .design-selection{
-    display: flex;
+    width: 40%;
     position: absolute;
-    top: 550px;
-    width: 25vw;
+    top: 625px;
+    left: 13%;
+    text-align: center;
     
 }
-.design-achives{
-    display: block;
+.design-archives{
+    width: 40%;
+    position: absolute;
+    top: 675px;
+    left: 33%;
+    text-align: center;
     
 }
 
