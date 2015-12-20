@@ -4,21 +4,16 @@
 }
 
 body{
-    background-color: beige;
+    background-color: rgb(251,251,240);
     font-family: zorus-sarif; 
     margin: 0;
 }
 
-/*img{
-    position: fixed;
-    float: right;
-    margin-left: 5px;
-    width: 25vw;
-    right: 5%;
-    top: 2%;
-    }*/
+p, nav{
+    letter-spacing: 0.075em;
+}
 header{
-    background: linear-gradient(rgba(255,255,255,0) 85%, rgba(218,210,186, 1) 100%), url('zen-background2.jpg') no-repeat right /cover;
+    background: linear-gradient(rgba(255,255,255,0) 85%, rgba(251,251,240, 1) 100%), url('zen-background2.jpg') no-repeat right /cover;
     margin: 0;
     margin-bottom: 10px;
     z-index: -1;
@@ -53,16 +48,17 @@ h1{
     width: 40%;
     position: absolute;
     top: 625px;
-    left: 13%;
+    right: 50%;
     text-align: center;
     
 }
 .design-archives{
-    width: 40%;
+    width: 30%;
     position: absolute;
     top: 675px;
-    left: 33%;
+    left: 50%;
     text-align: center;
+    padding-right: 50px;
     
 }
 
